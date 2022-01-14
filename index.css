@@ -1,0 +1,97 @@
+body{
+  font-size: 16px;
+  justify-content: center;
+  align-items: center;
+}
+.background{
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+  z-index: -1;
+  background-color:  hsl(225, 100%, 94%);
+}
+h5{
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 900;
+  margin: 2% 20%;
+  color: hsl(223, 47%, 23%);
+}
+.main{
+  background-color: hsl(225, 100%, 98%);
+  height: 90vh;
+  width: 35%;
+  border-radius: 40px;
+  position: absolute;
+  top:2%;
+  left: 30%;
+  align-items: center;
+  overflow: hidden;
+  text-align: center;
+  justify-content: center;
+}
+
+.card-body{
+  margin: 6%;
+  align-items: center;
+  text-align: center;
+  color: hsl(224, 23%, 55%);
+}
+.plans{
+   background-color: #ddd;
+   height: 73px;
+   width: 82%;
+   position: absolute;
+   left: 35px;
+   bottom: 150px;
+   border-radius: 15px;
+
+}
+.plans a{
+  position: absolute;
+  left: 220px;
+  bottom: 23px;
+}
+.text{
+  position: relative;
+  background-color: black;
+  color: #7D8EA8;
+}
+.plans svg{
+  position: absolute;
+  bottom: 10px;
+  left: 30px;
+}
+.spak{
+   position: absolute;
+   bottom: 10px;
+   left: 100px;
+   color: hsl(224, 23%, 55%);
+}
+.spak h6{
+  color: hsl(223, 47%, 23%);
+}
+.proceed{
+  position: absolute;
+  left: 80px;
+  bottom: 20px;
+  margin-top: 50px;
+
+}
+.tu{
+  margin-top: 15px;
+}
+.ti{
+  background-color: hsl(245, 75%, 52%);
+  color: $blue-600;
+}
+.attribution{
+  position: absolute;
+  bottom: 10px;
+  left: 35%;
+}
+# SecondChallengeOfMentor
